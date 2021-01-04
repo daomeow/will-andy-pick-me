@@ -30,6 +30,9 @@ function randomAnswer() {
   displayInput.innerHTML = questionInput.value;
   displayRandomAnswer.innerHTML = getRandomAnswer;
 
-// Hide eight-ball picture and display random answer
+  // Hide eight-ball picture and display random answer
   document.querySelector('.eight-ball').style.display= 'none';
+
+  // Remove user's input
+  questionInput.value = "";
 };
