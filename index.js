@@ -1,6 +1,7 @@
 //////////////////////////////////////
 // Event Listeners 
 //////////////////////////////////////
+
 var questionButton = document.querySelector('.button1');
 
 questionButton.addEventListener('click', function(event) {
